@@ -122,9 +122,10 @@ module.exports = {
             port: 3000,
             password: 'TheMonDonSmart'
         }]
+        
         DBM.Bot.bot.lavalink = new PlayerManager(DBM.Bot.bot, nodes, {
             user: DBM.Bot.bot.user.id,
             shards: 0
         })
     }
-}; // u stupid :reverse: :AngryBoi:
+}
